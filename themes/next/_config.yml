@@ -61,7 +61,7 @@ scheme: Pisces
 #scheme: Mist
 #scheme: Pisces
 #scheme: Muse
-#language: zh-Hans
+language: zh-Hans
 
 # ---------------------------------------------------------------
 # Font Settings
@@ -180,7 +180,7 @@ sidebar:
 # Blogrolls
 links_title: 友情链接
 links:
-   LateRain: http://hijacks.in/
+  # LateRain: http://hijacks.in/
    b4dboy: http://secoff.net/
    BlueBoy: http://hackteam.cn/
 #links_layout: block

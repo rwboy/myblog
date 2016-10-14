@@ -4,12 +4,12 @@
 
 # Site
 title: Rwboy's Blog
-subtitle: Never stop learning 
+subtitle: Never stop learning
 description: 风中奔跑的男孩
 author: rwboy
-language: 
-- zh-Hans
-- en
+language: zh-Hans
+ # - zh-Hans
+ # - en
 timezone:
 
 avatar: /uploads/avatar.png
@@ -20,7 +20,7 @@ url: http://blog.rwboy.cn
 root: /
 permalink: :lang/:year-:month-:day-:title.html
 permalink_defaults:
-  lang: zh-CN
+  lang: zh-Hans
 
 # Directory
 source_dir: source
@@ -76,7 +76,7 @@ deploy:
   type: git
   repo: https://github.com/rwboy/rwboy.github.io.git
   branch: master
-  
+
 duoshuo_shortname: rwboy
 search:
   path: search.xml
