@@ -5,7 +5,7 @@
 # Site
 title: Rwboy's Blog
 subtitle: Never stop learning
-description: 风中奔跑的男孩
+description: running in the wind
 author: rwboy
 language: zh-Hans
  # - zh-Hans
@@ -73,10 +73,12 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repo: https://github.com/rwboy/rwboy.github.io.git
   branch: master
-
+- type: git
+  repo: https://git.coding.net/rwboy/rwboy.git
+  branch: master
 duoshuo_shortname: rwboy
 search:
   path: search.xml
